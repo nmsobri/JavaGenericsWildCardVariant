@@ -54,6 +54,8 @@ public class Main {
         // Shark s = list.get(0); //compiler error, maybe ? is Animal
         // Animal a = list.get(0)/ //compiler error, maybe ? is Creature
         // Creature c = list.get(0) // compiler error, maybe ? is Object
+        
+        Object o = list.get(0) // valid, cause its the highest possible hierachy
     }
 
 
