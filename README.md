@@ -52,7 +52,8 @@ public class Main {
 
         //It cant get anything out of it because it doesnt know an exact parent of Shark, it may be Shark, Fish, Animal or Creature
         // Shark s = list.get(0); //compiler error, maybe ? is Animal
-        // Animal a = list.get(0)/ //compiler error, mayber ? is Creature
+        // Animal a = list.get(0)/ //compiler error, maybe ? is Creature
+        // Creature c = list.get(0) // compiler error, maybe ? is Object
     }
 
 
@@ -67,4 +68,5 @@ public class Main {
         // list.add(new DeadHammerShark()); //compiler error, ? maybe some other class inherit this DeadHammerShark class
     }
 }
+
 ```
